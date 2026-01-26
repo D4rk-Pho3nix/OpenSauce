@@ -1,137 +1,137 @@
-# OpenSauce 🎃
+# OpenSauce
 
-Welcome to OpenSauce! Your gateway to open-source contributions for **Hacktoberfest 2025**.
+![License](https://img.shields.io/github/license/D4rk-Pho3nix/OpenSauce) ![Version](https://img.shields.io/github/package-json/v/D4rk-Pho3nix/OpenSauce)
 
-This repository is dedicated to **Data Structures and Algorithms (DSA)** implementations in multiple programming languages. Whether you're a beginner or an experienced developer, contribute your DSA solutions and be part of the open-source community!
+A collaborative monorepo providing high-quality Data Structures and Algorithms (DSA) implementations across 15+ programming languages.
 
-## 🌐 Live Project
+## Table of Contents
 
-Explore our interactive website to browse through all DSA implementations by programming language, view contributors, and navigate the repository structure with ease!
+- [Overview](#overview-)
+- [Features](#features-)
+- [Architecture](#architecture-)
+- [Installation](#installation-)
+- [Usage](#usage-)
+- [Contributing](#contributing-)
+- [Maintainers](#maintainers-)
+- [Contributors](#contributors-)
+- [Support](#support-)
+- [License](#license-)
 
-**🔗 [View Live Project](https://opensaucedsarepo.netlify.app/)**
+## Overview 🚀
 
+OpenSauce is a community-driven resource designed to centralize efficient implementations of Data Structures and Algorithms. By supporting over 15 programming languages, the project serves as both a learning tool for coding standards and a platform for open-source participation during events like Hacktoberfest 2025. The repository emphasizes rigorous documentation, idiomatic code, and mandatory complexity analysis for every submission.
 
+## Features ✨
 
-## 📁 Repository Structure
+- **Multi-Language Support**: Comprehensive implementations in languages including C++, Python, Java, JavaScript, Rust, Go, Swift, and more.
+- **Automated PR Validation**: Integrated GitHub Actions that verify documentation quality, syntax, and the presence of complexity analysis before merging.
+- **Standardized Complexity Analysis**: Every algorithm includes mandatory Big O notation for both Time and Space complexity.
+- **Categorized Library**: Well-organized directory structure covering arrays, graphs, sorting, trees, and advanced matrix manipulations.
+- **Hacktoberfest Ready**: Automated labeling and management systems specifically configured for the Hacktoberfest 2025 event.
+- **Live Project Portal**: An interactive website hosted via Netlify to browse implementations and contributor statistics.
 
-This repository contains language-specific folders for DSA contributions:
+## Architecture 🏗️
 
-```
+### Design Pattern
+OpenSauce utilizes a **Polyglot Monorepo** pattern. This structure allows the project to maintain consistency across different programming environments while respecting the unique conventions of each language.
+
+### System Components
+- **GitHub Workflows**: The backbone of the repository's quality control. These workflows automate PR labeling, enforce complexity analysis standards, and handle auto-merging for verified contributions.
+- **Language-Specific Modules**: Each top-level directory represents a language (e.g., `/Python`, `/Rust`) containing its own environment-specific README and categorized subdirectories.
+- **Contribution Templates**: Standardized markdown and code templates ensure that all submissions follow a uniform format, including descriptive comments and test cases.
+
+### Directory Structure
+```text
 OpenSauce/
-├── C/
-├── C++/
-├── Java/
-├── Python/
-├── JavaScript/
-├── Go/
-├── Rust/
-├── TypeScript/
-├── Kotlin/
-├── Swift/
-├── Ruby/
-├── PHP/
-├── Dart/
-├── Haskell/
-└── Scala/
+├── .github/workflows/    # CI/CD Automation
+├── C++/                  # C++ Implementations
+│   ├── arrays/
+│   └── sorting/
+├── Python/               # Python Implementations
+│   ├── graphs/
+│   └── math/
+└── ...                   # Other languages
 ```
 
-Each language folder contains its own README with specific guidelines and suggested organization.
+## Installation 🛠️
 
-## 🚀 How to Contribute
+Follow these steps to set up the project locally for development or testing:
 
-1. **Fork this repository** to your GitHub account
-2. **Clone your fork** to your local machine
-   ```bash
-   git clone https://github.com/your-username/OpenSauce.git
-   cd OpenSauce
-   ```
-3. **Choose a language folder** you want to contribute to
-4. **Create your DSA implementation**:
-   - Follow the naming conventions specified in each language's README
-   - Organize code by topic (arrays, trees, graphs, sorting, etc.)
-   - Include comments explaining your algorithm
-   - Add time and space complexity analysis
-5. **Create a new branch**:
-   ```bash
-   git checkout -b add-algorithm-name
-   ```
-6. **Commit your changes**:
-   ```bash
-   git add .
-   git commit -m "Add [algorithm-name] in [language]"
-   ```
-7. **Push to your fork**:
-   ```bash
-   git push origin add-algorithm-name
-   ```
-8. **Create a Pull Request** from your fork to this repository
+1.  **Fork and Clone**
+    Fork the repository on GitHub and clone it to your local machine:
+    ```bash
+    git clone https://github.com/D4rk-Pho3nix/OpenSauce.git
+    cd OpenSauce
+    ```
 
-## 📋 Contribution Guidelines
+2.  **Environment Setup**
+    Ensure you have the compiler or runtime installed for your chosen language.
+    - **C++**: `g++` (GCC 9+)
+    - **Python**: `python 3.x`
+    - **Rust**: `rustc` and `cargo`
+    - **Node.js**: For JavaScript/TypeScript implementations.
 
-### What to Contribute
-- ✅ Data structure implementations (arrays, linked lists, trees, graphs, etc.)
-- ✅ Algorithm implementations (sorting, searching, dynamic programming, etc.)
-- ✅ Well-documented code with complexity analysis
-- ✅ Test cases or example usage
+3.  **PHP Testing Environment (Optional)**
+    If you are working with PHP implementations, you can use the built-in server:
+    ```bash
+    cd PHP/test_karunia
+    php -S localhost:8000
+    ```
 
-### Code Quality
-- Include clear comments explaining the logic
-- Add time and space complexity in comments
-- Follow the coding conventions of the language
-- Provide example usage or test cases
-- Use meaningful variable and function names
+4.  **IDE Configuration**
+    We recommend using **Visual Studio Code** or **IntelliJ IDEA** with relevant language extensions for linting and formatting (e.g., `rustfmt`, `gofmt`, `PEP8`).
 
-### What NOT to Contribute
-- ❌ Duplicate implementations (check existing code first)
-- ❌ Poorly documented code
-- ❌ Copied code without understanding
-- ❌ Unrelated files or spam
+## Usage 💻
 
-## 🏷️ Topics to Contribute
+### Running a C++ Algorithm
+To compile and run a specific C++ implementation using the C++17 standard:
+```bash
+g++ -std=c++17 C++/arrays/169-Majority_Element.cpp -o solution
+./solution
+```
 
-Each language folder supports the following topics:
-- **Arrays** - Array manipulation and problems
-- **Linked Lists** - Singly, doubly, circular linked lists
-- **Stacks** - Stack implementations and applications
-- **Queues** - Queue implementations and variations
-- **Trees** - Binary trees, BST, AVL, heaps, tries
-- **Graphs** - Graph representations and algorithms (BFS, DFS, Dijkstra, etc.)
-- **Sorting** - Bubble, merge, quick, heap sort, etc.
-- **Searching** - Binary search, linear search, etc.
-- **Dynamic Programming** - DP problems and solutions
-- **Greedy Algorithms** - Greedy approach problems
-- **Backtracking** - Backtracking problems
-- **Mathematics** - Number theory, GCD, prime numbers, etc.
-- **Strings** - String manipulation and algorithms
+### Executing a Python Implementation
+Most Python files include `__main__` blocks for quick testing:
+```bash
+python3 Python/arrays/1248-count-number-of-nice-subarrays.py
+```
 
-## 🌟 Hacktoberfest 2025
+### Contribution Workflow
+To contribute a new algorithm, follow the branch naming and commit conventions:
+```bash
+git checkout -b feature/algorithm-name-language
+# Add your implementation with complexity comments
+git add .
+git commit -m "Add [Algorithm Name] in [Language]"
+git push origin feature/algorithm-name-language
+```
 
-This repository is participating in **Hacktoberfest 2025**! 
+## Contributing 🤝
 
-- Complete 6 quality pull requests during October to earn your Hacktoberfest swag
-- Make sure your PRs are meaningful contributions, not spam
-- Check out [Hacktoberfest Official Website](https://hacktoberfest.com) for more details
+We welcome contributions from developers of all skill levels. To maintain high code quality, please adhere to the following guidelines:
 
-## 📝 Code of Conduct
+- **Documentation**: Every file must include a brief description of the algorithm.
+- **Complexity Analysis**: You **must** include Time and Space complexity at the top of your file (e.g., `// Time: O(n log n) | Space: O(1)`).
+- **Naming Conventions**: Use descriptive filenames. Avoid generic names like `solution.py`. Use kebab-case or snake_case as per language standards.
+- **PR Validation**: Our automated bot will check your PR. Ensure all tests pass and your code is properly formatted (use `rustfmt` for Rust, `gofmt` for Go, etc.).
 
-- Be respectful and inclusive
-- Provide constructive feedback
-- Help others learn and grow
-- No spam or low-quality contributions
+For more details, please refer to the `CONTRIBUTING.md` file in the root directory.
 
-## 📧 Need Help?
+## Maintainers 👤
 
-- Check the language-specific README in each folder
-- Open an issue if you have questions
-- Review existing pull requests for examples
-- Visit our [live website](https://opensaucedsarepo.netlify.app/) to explore the repository
+- **D4rk-Pho3nix** - *Project Lead & Repository Owner*
 
-## 🎉 Contributors
+## Contributors 👥
 
-Thank you to all contributors who help make this project better!
+OpenSauce is built by the community. A full list of contributors can be viewed on our [Live Project Site](https://opensauce-dsa.netlify.app) or by visiting the GitHub contributors page.
 
-Check out all our amazing contributors on the [live project page](https://opensaucedsarepo.netlify.app/)!
+## Support 🆘
 
----
+If you encounter bugs, have questions, or want to suggest new features:
+- Open an **Issue** on the GitHub repository.
+- Join our **GitHub Discussions** for community support.
+- Refer to the language-specific READMEs for technical implementation details.
 
-**Happy Coding and Happy Hacktoberfest! 🎃👨‍💻👩‍💻**
+## License 📄
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
