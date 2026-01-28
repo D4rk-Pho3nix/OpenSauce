@@ -1,137 +1,172 @@
-# OpenSauce
+<div align="center">
 
-![License](https://img.shields.io/github/license/D4rk-Pho3nix/OpenSauce) ![Version](https://img.shields.io/github/package-json/v/D4rk-Pho3nix/OpenSauce)
+<img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/final-banner-3d554fc7-eb01-4807-b893-5faba45445e3/finalbanner.png" alt="OpenSauce Banner" width="100%" />
 
-A collaborative monorepo providing high-quality Data Structures and Algorithms (DSA) implementations across 15+ programming languages.
+# 🥫 OpenSauce
 
-## Table of Contents
+**Centralized, multi-language repository for high-performance DSA implementations with automated quality gating.**
 
-- [Overview](#overview-)
-- [Features](#features-)
-- [Architecture](#architecture-)
-- [Installation](#installation-)
-- [Usage](#usage-)
-- [Contributing](#contributing-)
-- [Maintainers](#maintainers-)
-- [Contributors](#contributors-)
-- [Support](#support-)
-- [License](#license-)
+[![license](https://img.shields.io/github/license/D4rk-Pho3nix/OpenSauce)](LICENSE)
+[![last_commit](https://img.shields.io/github/last-commit/D4rk-Pho3nix/OpenSauce)](https://github.com/D4rk-Pho3nix/OpenSauce/commits/main)
+[![followers](https://img.shields.io/github/followers/D4rk-Pho3nix?style=flat-square)](https://github.com/D4rk-Pho3nix)
+[![contact](https://img.shields.io/badge/Contact-Email-blue)](mailto:manish.srmist23@gmail.com)
+[![buymeacoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-orange)](https://buymeacoffee.com/hf2p)
 
-## Overview 🚀
+<p align="center">
+  <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase1.png" alt="Main Showcase" width="80%" />
+  <br>
+  <em>Main Showcase</em>
+</p>
 
-OpenSauce is a community-driven resource designed to centralize efficient implementations of Data Structures and Algorithms. By supporting over 15 programming languages, the project serves as both a learning tool for coding standards and a platform for open-source participation during events like Hacktoberfest 2025. The repository emphasizes rigorous documentation, idiomatic code, and mandatory complexity analysis for every submission.
+<details>
+<summary><b>📷 View Gallery</b></summary>
+<div align="center">
+  <p>
+    <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase2.png" alt="2" width="45%" />
+    <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase3.gif" alt="3" width="45%" />
+  </p>
+  <p><em>Gallery: 2 | 3</em></p>
+</div>
+</details>
 
-## Features ✨
+</div>
 
-- **Multi-Language Support**: Comprehensive implementations in languages including C++, Python, Java, JavaScript, Rust, Go, Swift, and more.
-- **Automated PR Validation**: Integrated GitHub Actions that verify documentation quality, syntax, and the presence of complexity analysis before merging.
-- **Standardized Complexity Analysis**: Every algorithm includes mandatory Big O notation for both Time and Space complexity.
-- **Categorized Library**: Well-organized directory structure covering arrays, graphs, sorting, trees, and advanced matrix manipulations.
-- **Hacktoberfest Ready**: Automated labeling and management systems specifically configured for the Hacktoberfest 2025 event.
-- **Live Project Portal**: An interactive website hosted via Netlify to browse implementations and contributor statistics.
+---
 
-## Architecture 🏗️
+## 📑 Table of Contents
+- [Rationale](#-rationale)
+- [Features](#-features)
+- [Architecture](#-architecture)
+- [Quick Start](#-quick-start)
+- [Usage](#-usage)
+- [Contributing](#-contributing)
+- [Maintainers](#-maintainers)
+- [Support](#-support)
+- [License](#-license)
 
-### Design Pattern
-OpenSauce utilizes a **Polyglot Monorepo** pattern. This structure allows the project to maintain consistency across different programming environments while respecting the unique conventions of each language.
+---
 
-### System Components
-- **GitHub Workflows**: The backbone of the repository's quality control. These workflows automate PR labeling, enforce complexity analysis standards, and handle auto-merging for verified contributions.
-- **Language-Specific Modules**: Each top-level directory represents a language (e.g., `/Python`, `/Rust`) containing its own environment-specific README and categorized subdirectories.
-- **Contribution Templates**: Standardized markdown and code templates ensure that all submissions follow a uniform format, including descriptive comments and test cases.
+## 💡 Rationale
+OpenSauce was established to bridge the gap between academic algorithmic theory and practical, production-grade implementation. While many resources provide code snippets, OpenSauce enforces a standard of quality through mandatory complexity analysis and automated CI/CD validation. It serves as a collaborative monorepo where developers contribute idiomatic solutions across 15+ languages, ensuring that learners have access to efficient, well-documented, and verified Data Structures and Algorithms.
+
+---
+
+## ✨ Features
+- **Polyglot Ecosystem**: Native implementations in 15+ languages including C++, Rust, Go, Haskell, and Swift.
+- **Automated Quality Gating**: GitHub Actions workflows verify syntax, documentation standards, and length requirements for every PR.
+- **Rigorous Complexity Standards**: Mandatory Big O notation for Time and Space complexity within every implementation.
+- **Categorized Modules**: Highly organized structure covering Graphs, Trees, Dynamic Programming, and specialized subarray logic.
+- **Hacktoberfest Ready**: Built-in automation for labeling and managing contributions during open-source festivals.
+
+---
+
+## 🏗️ Architecture
+
+OpenSauce utilizes a **Polyglot Monorepo** pattern, designed for high scalability and modularity. The repository is organized by programming language, with each directory containing specialized sub-modules for specific algorithmic categories.
 
 ### Directory Structure
 ```text
 OpenSauce/
-├── .github/workflows/    # CI/CD Automation
-├── C++/                  # C++ Implementations
-│   ├── arrays/
-│   └── sorting/
-├── Python/               # Python Implementations
-│   ├── graphs/
-│   └── math/
-└── ...                   # Other languages
+├── .github/workflows/    # CI/CD Automation & PR Validation
+├── C++/                  # C++ Solutions (STL-heavy)
+├── Python/               # Python Solutions (Idiomatic)
+├── Java/                 # Java Solutions (Collections API)
+├── PHP/                  # PHP Challenges & Local Test Suite
+├── Rust/                 # Rust Solutions (Memory-safe)
+└── CONTRIBUTING.md       # Quality & Contribution Guidelines
 ```
 
-## Installation 🛠️
+### Core Components
+| Component | Responsibility |
+| :--- | :--- |
+| **.github/workflows** | Manages automated testing, auto-merging logic, and Hacktoberfest labeling. |
+| **C++ Module** | High-performance implementations organized by topics like Graphs and Trees. |
+| **Java/subarrays** | Focused implementations of Kadane’s, Sliding Window, and Prefix Sum techniques. |
+| **PHP/test_karunia** | Features a built-in test runner for validating challenge solutions locally. |
 
-Follow these steps to set up the project locally for development or testing:
+---
 
-1.  **Fork and Clone**
-    Fork the repository on GitHub and clone it to your local machine:
-    ```bash
-    git clone https://github.com/D4rk-Pho3nix/OpenSauce.git
-    cd OpenSauce
-    ```
+## 🚀 Quick Start
 
-2.  **Environment Setup**
-    Ensure you have the compiler or runtime installed for your chosen language.
-    - **C++**: `g++` (GCC 9+)
-    - **Python**: `python 3.x`
-    - **Rust**: `rustc` and `cargo`
-    - **Node.js**: For JavaScript/TypeScript implementations.
+### Prerequisites
+- Git
+- Appropriate compiler/runtime for your chosen language (e.g., GCC 9+, Python 3.x, JDK 11+, or Rust/Cargo).
 
-3.  **PHP Testing Environment (Optional)**
-    If you are working with PHP implementations, you can use the built-in server:
-    ```bash
-    cd PHP/test_karunia
-    php -S localhost:8000
-    ```
+### Installation
+```bash
+git clone https://github.com/D4rk-Pho3nix/OpenSauce.git
+cd OpenSauce
+```
 
-4.  **IDE Configuration**
-    We recommend using **Visual Studio Code** or **IntelliJ IDEA** with relevant language extensions for linting and formatting (e.g., `rustfmt`, `gofmt`, `PEP8`).
-
-## Usage 💻
-
-### Running a C++ Algorithm
-To compile and run a specific C++ implementation using the C++17 standard:
+### Build Example (C++)
 ```bash
 g++ -std=c++17 C++/arrays/169-Majority_Element.cpp -o solution
-./solution
 ```
 
-### Executing a Python Implementation
-Most Python files include `__main__` blocks for quick testing:
+---
+
+## 🛠️ Usage
+
+Users can browse the repository by language and topic. Each implementation is standalone and includes internal documentation.
+
+### Running a Python Solution
 ```bash
 python3 Python/arrays/1248-count-number-of-nice-subarrays.py
 ```
 
-### Contribution Workflow
-To contribute a new algorithm, follow the branch naming and commit conventions:
+### Running the PHP Test Suite
+Navigate to the PHP module and start a local server to view results:
 ```bash
-git checkout -b feature/algorithm-name-language
-# Add your implementation with complexity comments
-git add .
-git commit -m "Add [Algorithm Name] in [Language]"
-git push origin feature/algorithm-name-language
+php -S localhost:8000
+# Access http://localhost:8000/tests/run_all_tests.php in your browser
 ```
 
-## Contributing 🤝
+---
 
-We welcome contributions from developers of all skill levels. To maintain high code quality, please adhere to the following guidelines:
+## 🤝 Contributing
+Contributions are the lifeblood of OpenSauce. To maintain high standards, all PRs must adhere to:
+1. **Complexity Analysis**: Include Time and Space complexity in Big O notation.
+2. **Naming Conventions**: Use descriptive filenames (e.g., `BinarySearch.cpp` instead of `bs.cpp`).
+3. **Validation**: Ensure the code passes all GitHub Actions checks.
 
-- **Documentation**: Every file must include a brief description of the algorithm.
-- **Complexity Analysis**: You **must** include Time and Space complexity at the top of your file (e.g., `// Time: O(n log n) | Space: O(1)`).
-- **Naming Conventions**: Use descriptive filenames. Avoid generic names like `solution.py`. Use kebab-case or snake_case as per language standards.
-- **PR Validation**: Our automated bot will check your PR. Ensure all tests pass and your code is properly formatted (use `rustfmt` for Rust, `gofmt` for Go, etc.).
+Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for the full specification.
 
-For more details, please refer to the `CONTRIBUTING.md` file in the root directory.
+---
 
-## Maintainers 👤
+## 👤 Maintainers
+- **D4rk-Pho3nix** ([@D4rk-Pho3nix](https://github.com/D4rk-Pho3nix))
 
-- **D4rk-Pho3nix** - *Project Lead & Repository Owner*
+---
 
-## Contributors 👥
+## 💎 Contributors
+<div align="center">
+<a href="https://github.com/D4rk-Pho3nix/OpenSauce/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=D4rk-Pho3nix/OpenSauce" />
+</a>
+</div>
 
-OpenSauce is built by the community. A full list of contributors can be viewed on our [Live Project Site](https://opensauce-dsa.netlify.app) or by visiting the GitHub contributors page.
+---
 
-## Support 🆘
+## 🆘 Support
+If you find this project helpful, consider supporting the development:
+- ☕ [Buy Me A Coffee](https://buymeacoffee.com/hf2p)
+- ⭐ Star the repository to increase visibility.
 
-If you encounter bugs, have questions, or want to suggest new features:
-- Open an **Issue** on the GitHub repository.
-- Join our **GitHub Discussions** for community support.
-- Refer to the language-specific READMEs for technical implementation details.
+---
 
-## License 📄
+## 📜 License
+This project is licensed under the **MIT License**.
+*Copyright (c) 2025 OpenSauce Contributors.*
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+---
+
+<div align="center">
+
+### Project Vitality
+![Star Chart](https://api.star-history.com/svg?repos=D4rk-Pho3nix/OpenSauce&type=Date)
+
+</div>
+
+<div align="center">
+  <sub>Built with ❤️ by the OpenSauce Community</sub>
+</div>
