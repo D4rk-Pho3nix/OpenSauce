@@ -1,13 +1,11 @@
 <div align="center">
 
-![Banner Placeholder](https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/final-banner-3d554fc7-eb01-4807-b893-5faba45445e3/finalbanner.png)
+![Banner Placeholder](https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/c0cb3050-da21-4187-9ab8-08ab4ad073ec/final-banner.gif)
 
-![Version](https://img.shields.io/github/v/release/D4rk-Pho3nix/OpenSauce?style=flat-square&label=version&color=blue)
-![Release Date](https://img.shields.io/github/release-date/D4rk-Pho3nix/OpenSauce?style=flat-square&label=released&color=green)
 ![Last Commit](https://img.shields.io/github/last-commit/D4rk-Pho3nix/OpenSauce?style=flat-square&label=last%20commit&color=purple)
 [![Followers](https://img.shields.io/github/followers/D4rk-Pho3nix?style=flat-square&logo=github&color=yellow)](https://github.com/D4rk-Pho3nix)
 ![License](https://img.shields.io/github/license/D4rk-Pho3nix/OpenSauce?style=flat-square&color=orange)
-[![Contact](https://img.shields.io/badge/Contact-Ask-cyan?style=flat-square)](mailto:manish.srmist23@gmail.com)
+[![Contact](https://img.shields.io/badge/Contact-Dev-cyan?style=flat-square)](https://x.com/elonmusk)
 
 
 **made with 🩷 by [D4rk-Pho3nix](https://github.com/D4rk-Pho3nix)**
@@ -24,9 +22,6 @@
 | [✨ Features](#-features) | Key capabilities and highlights |
 | [📸 Product Showcase](#-product-showcase) | Visual gallery of features |
 | [🏗️ Architecture](#-architecture) | Codebase structure and organization |
-| [🚀 Quick Start](#-quick-start) | Get up and running in minutes |
-| [📖 Usage](#-usage) | Detailed usage instructions |
-| [🤝 Contributing](#-contributing) | Guidelines for contributors |
 | [🎗️ Maintainers](#-maintainers) | Project maintainers |
 | [🩷 Contributors](#-contributors) | Project contributors |
 | [💖 Support](#-support) | How to support the project |
@@ -35,22 +30,22 @@
 ## 💡 Why this exists
 
 > [!TIP]
-> OpenSauce is a centralized, multi-language repository for high-performance DSA implementations with automated quality gating. It serves as a comprehensive learning tool and a platform for collaborative open-source contributions.
+> Multi-language DSA repository with automated quality gating and mandatory complexity analysis.
 
-**Background:** Designed to centralize efficient implementations of common algorithms with mandatory complexity analysis and automated quality validation via GitHub Actions, specifically optimized for Hacktoberfest participation.
+**Background:** Designed to optimize open-source contributions for Hacktoberfest by mandating complexity analysis and automated validation via GitHub Actions.
 
 ## ✨ Features
 
-- **Support for 15+ Programming Languages**: Comprehensive implementations in C++, Python, Java, Rust, Go, and more.
-- **Automated PR Validation**: Integrated CI/CD workflows verify documentation, syntax, and length requirements.
-- **Mandatory Big O Complexity Analysis**: Every solution includes verified Time and Space complexity analysis.
-- **Hacktoberfest 2025 Automation**: Automated labeling and management for streamlined open-source contributions.
-- **Categorized Algorithmic Modules**: Organized by data structures (Graphs, Trees, DP) for easy navigation.
+- Support for 15+ Programming Languages
+- Automated PR Validation & Quality Gating
+- Mandatory Big O Complexity Analysis
+- Hacktoberfest 2025 Automation
+- Categorized Algorithmic Modules
 
 ## 📸 Product Showcase
 
 <div align="center">
-  <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase1.png" alt="Main Showcase" width="100%">
+  <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-c0cb3050-da21-4187-9ab8-08ab4ad073ec/showcase1.png" alt="Main Showcase" width="100%">
 
   <details>
     <summary><b>View Gallery</b></summary>
@@ -58,11 +53,11 @@
       <tr>
         <td width="50%" align="center" style="vertical-align: top;">
           <b>Implementation Structure</b><br>
-          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase2.png" alt="Structure" width="100%">
+          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-c0cb3050-da21-4187-9ab8-08ab4ad073ec/showcase2.gif" alt="2" width="100%">
         </td>
         <td width="50%" align="center" style="vertical-align: top;">
           <b>Validation Workflow</b><br>
-          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase3.gif" alt="Workflow" width="100%">
+          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-c0cb3050-da21-4187-9ab8-08ab4ad073ec/showcase3.gif" alt="3" width="100%">
         </td>
       </tr>
     </table>
@@ -71,146 +66,32 @@
 
 ## 🏗️ Architecture
 
-```text
-OpenSauce/
-├── .github/workflows/    # CI/CD Automation
-├── C++/                  # C++ Solutions
-├── Python/               # Python Solutions
-├── Java/                 # Java Solutions
-├── PHP/                  # PHP Challenges & Tests
-├── Rust/                 # Rust Solutions
-└── CONTRIBUTING.md       # Quality Guidelines
-```
-
-### Key Directories
-
-| Directory | Purpose |
-|-----------|---------|
-| `.github/workflows` | Contains GitHub Actions for automated testing and labeling. |
-| `C++` | Topic-organized C++ implementations (Arrays, Graphs, etc.). |
-| `Java/subarrays` | Comprehensive subarray problem set using Kadane's and Sliding Window. |
-| `PHP/test_karunia` | Standalone PHP problems with local test server support. |
-
-## 🚀 Quick Start
-
-> [!IMPORTANT]
-> All submissions MUST include Big O Time and Space complexity analysis in the file comments to pass automated validation.
-
-### Prerequisites
-
-| Requirement | Version | Notes |
-|-------------|---------|-------|
-| GCC / G++ | 9.0+ | Required for C++17 implementations |
-| Python | 3.8+ | Required for Python modules |
-| Node.js | 14+ | Required for JavaScript/TypeScript |
-| Go | 1.16+ | Required for Go implementations |
-
-> [!WARNING]
-> Ensure your file names do not contain spaces; use hyphens or underscores to maintain compatibility with the automated test runners.
-
-### Clone & Setup
-
-```bash
-git clone https://github.com/D4rk-Pho3nix/OpenSauce.git
-cd OpenSauce
-```
-
-### Build (C++ Example)
-```bash
-g++ -std=c++17 C++/arrays/169-Majority_Element.cpp -o solution
-```
-
-### Run
-```bash
-# Execute compiled C++ binary
-./solution
-
-# Run Python implementation
-python3 Python/arrays/1248-count-number-of-nice-subarrays.py
-
-# Launch PHP test server
-php -S localhost:8000
-```
-
-> [!NOTE]
-> For PHP modules, you can view the test results by opening `http://localhost:8000/tests/run_all_tests.php` in your browser.
-
-## 🤖 Usage
-
-Users navigate to the directory of their chosen language, locate the algorithm by topic (e.g., `/sorting`), and execute the file using the appropriate language runtime or compiler.
-
-**Example: Running a C++ algorithm with complexity analysis**
-```bash
-g++ 169-Majority\ Element.cpp -o majority && ./majority
-```
-
-**Example: Executing the PHP test suite**
-```bash
-php -S localhost:8000
-# Open http://localhost:8000/tests/run_all_tests.php in browser
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! This repository is optimized for collaborative learning and Hacktoberfest.
-
-Quick contribution flow:
-1. **Fork the repo**
-2. **Create your feature branch** (`git checkout -b feature/amazing-algorithm`)
-3. **Make your changes** (Ensure Big O analysis is included)
-4. **Commit with conventional commits** (`git commit -m "feat: add merge sort in Rust"`)
-5. **Push and create PR** (`git push origin feature/amazing-algorithm`)
-
-> [!NOTE]
-> All PRs must pass CI checks (syntax validation, complexity check) before they can be merged.
+The project follows a topic-based multi-language directory structure. Each language (C++, Python, Java, PHP, Rust, etc.) contains subdirectories organized by algorithmic topics such as Arrays, Graphs, and Dynamic Programming. Automated workflows in `.github/workflows/` handle PR validation and quality checks.
 
 ## 🎗️ Maintainers
-
-<div align="left"> 
-  <a href="https://github.com/D4rk-Pho3nix"> 
-    <img src="https://github.com/D4rk-Pho3nix.png?size=100" width="100px;" alt="D4rk-Pho3nix"/> 
-  </a> 
-</div>
+<div align="left"> <a href="https://github.com/D4rk-Pho3nix"> <img src="https://github.com/D4rk-Pho3nix.png?size=100" width="100px;" alt="D4rk-Pho3nix"/> </a> </div>
 
 ## 🩷 Contributors
+Thanks goes to these wonderful people <3 ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
-Thanks goes to these wonderful people:
-
-<div align="left"> 
-<table> 
-  <tbody> 
-    <tr> 
-      <td align="center" valign="top" width="14.28%">
-        <a href="https://github.com/D4rk-Pho3nix">
-          <img src="https://github.com/D4rk-Pho3nix.png?size=100" width="100px;" alt="D4rk-Pho3nix"/><br />
-          <sub><b>D4rk-Pho3nix</b></sub>
-        </a><br />
-        <a href="#" title="Code">💻</a>
-      </td> 
-    </tr> 
-  </tbody> 
-</table> 
-</div>
+<div align="left"> <table> <tbody> <tr> <td align="center" valign="top" width="14.28%"><a href="https://github.com/D4rk-Pho3nix"><img src="https://github.com/D4rk-Pho3nix.png?size=100" width="100px;" alt="D4rk-Pho3nix"/><br /><sub><b>D4rk-Pho3nix</b></sub></a><br /><a href="#" title="Code">💻</a></td> </tr> </tbody> </table> </div>
 
 This project follows the all-contributors specification. Contributions of any kind welcome!
 
 ## 💖 Support
-
 If this project helped you, consider buying me a coffee, any donation is appreciated and goes towards my caffeine addiction :p
 
-<a href="https://buymeacoffee.com/hf2p"> 
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExem14OW1tanN3eHlyYmR4NW1sYmJkOTZmbmJxejdjZXB6MXY5cW12MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/TDQOtnWgsBx99cNoyH/giphy.gif" width="80"> 
-</a>
+<a href="https://buymeacoffee.com/hf2p"> <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExem14OW1tanN3eHlyYmR4NW1sYmJkOTZmbmJxejdjZXB6MXY5cW12MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/TDQOtnWgsBx99cNoyH/giphy.gif" width="80"> </a>
 
 ## 📄 License
 
-This project is licensed under the MIT License.
-
+```
 Copyright (c) 2025 OpenSauce Contributors. Licensed under the MIT License.
+```
 
 <div align="center">
 
-[![Star History Chart](https://api.star-history.com/svg?repos=D4rk-Pho3nix/OpenSauce&type=Date)](https://star-history.com/#D4rk-Pho3nix/OpenSauce)
+[![Star History Chart](https://api.star-history.com/svg?repos=D4rk-Pho3nix/OpenSauce&type=Date)](https://star-history.com/#D4rk-Pho3nix/OpenSauce&Date)
 
 </div>
 
