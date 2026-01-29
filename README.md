@@ -51,15 +51,16 @@
 
 <div align="center">
   <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase1.png" alt="Main Showcase" width="100%">
+  
   <details>
     <summary><b>View Gallery</b></summary>
-    <table style="width: 100%; border-spacing: 15px; border-collapse: separate;">
+    <table width="100%">
       <tr>
-        <td align="center" style="vertical-align: top; width: 50%;">
+        <td width="50%" align="center" style="vertical-align: top;">
           <b>Implementation Structure</b><br>
           <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase2.png" alt="Multi-language Preview" width="100%">
         </td>
-        <td align="center" style="vertical-align: top; width: 50%;">
+        <td width="50%" align="center" style="vertical-align: top;">
           <b>Validation Workflow</b><br>
           <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase3.gif" alt="CI/CD Automation" width="100%">
         </td>
