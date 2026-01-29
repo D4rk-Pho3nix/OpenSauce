@@ -50,18 +50,18 @@
 ## 📸 Product Showcase
 
 <div align="center">
-  <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase1.png" alt="Main Showcase" width="1000">
+  <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase1.png" alt="Main Showcase" width="10">
   <details>
     <summary><b>View Gallery</b></summary>
     <table style="width: 100%; border-spacing: 15px; border-collapse: separate;">
       <tr>
         <td align="center" style="vertical-align: top; width: 50%;">
           <b>Implementation Structure</b><br>
-          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase2.png" alt="Multi-language Preview" width="100%">
+          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase2.png" alt="Multi-language Preview" width="10%">
         </td>
         <td align="center" style="vertical-align: top; width: 50%;">
           <b>Validation Workflow</b><br>
-          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase3.gif" alt="CI/CD Automation" width="100%">
+          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase3.gif" alt="CI/CD Automation" width="10%">
         </td>
       </tr>
     </table>
