@@ -62,7 +62,7 @@
         </td>
         <td width="50%" align="center" style="vertical-align: top;">
           <b>Validation Workflow</b><br>
-          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase3.gif" alt="CI/CD Automation" width="100%">
+          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/public/generated-banners/2f18d3f1-1ffe-4c6a-8406-cf872b308c72/test.gif" alt="CI/CD Automation" width="100%">
         </td>
       </tr>
     </table>
