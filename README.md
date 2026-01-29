@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner](https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/final-banner-3d554fc7-eb01-4807-b893-5faba45445e3/finalbanner.png)
+![Banner Placeholder](https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/final-banner-3d554fc7-eb01-4807-b893-5faba45445e3/finalbanner.png)
 
 ![Version](https://img.shields.io/github/v/release/D4rk-Pho3nix/OpenSauce?style=flat-square&label=version&color=blue)
 ![Release Date](https://img.shields.io/github/release-date/D4rk-Pho3nix/OpenSauce?style=flat-square&label=released&color=green)
@@ -8,7 +8,6 @@
 [![Followers](https://img.shields.io/github/followers/D4rk-Pho3nix?style=flat-square&logo=github&color=yellow)](https://github.com/D4rk-Pho3nix)
 ![License](https://img.shields.io/github/license/D4rk-Pho3nix/OpenSauce?style=flat-square&color=orange)
 [![Contact](https://img.shields.io/badge/Contact-Ask-cyan?style=flat-square)](mailto:manish.srmist23@gmail.com)
-
 
 **made with 🩷 by [D4rk-Pho3nix](https://github.com/D4rk-Pho3nix)**
 *(if you like my work, consider ⭐ starring the repo!)*
@@ -41,28 +40,28 @@
 
 ## ✨ Features
 
-- **Multi-Language Support**: Support for 15+ Programming Languages including C++, Rust, Go, and Swift.
-- **Automated PR Validation**: Integrated GitHub Actions CI/CD to verify documentation and syntax.
-- **Complexity Enforcement**: Mandatory Big O Complexity Analysis (Time and Space) for all submissions.
-- **Hacktoberfest 2025 Readiness**: Automated automation for Hacktoberfest labeling and PR management.
-- **Modular Organization**: Categorized algorithmic modules (Graphs, Trees, DP, etc.) for easy navigation.
+- **Support for 15+ Programming Languages**: Comprehensive implementations across C++, Python, Java, Rust, Go, and more.
+- **Automated PR Validation**: Integrated GitHub Actions verify documentation, syntax, and complexity analysis.
+- **Mandatory Complexity Analysis**: Every implementation includes Time and Space complexity in Big O notation.
+- **Hacktoberfest 2025 Automation**: Automated labeling and PR management tailored for open-source contributors.
+- **Categorized Algorithmic Modules**: Logical organization covering Graphs, Trees, Dynamic Programming, and more.
 
 ## 📸 Product Showcase
 
 <div align="center">
-  <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase1.png" alt="Main Showcase" width="100%">
-  
+  <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase1.png" alt="Main Showcase" width="1000">
+
   <details>
     <summary><b>View Gallery</b></summary>
-    <table width="100%">
+    <table style="width: 100%; border-spacing: 15px; border-collapse: separate;">
       <tr>
-        <td width="50%" align="center" style="vertical-align: top;">
-          <b>Implementation Structure</b><br>
-          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase2.png" alt="Multi-language Preview" width="100%">
+        <td align="center" style="vertical-align: top; width: 50%;">
+          <b>Implementation Overview</b><br>
+          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase2.png" alt="2" width="100%">
         </td>
-        <td width="50%" align="center" style="vertical-align: top;">
-          <b>Validation Workflow</b><br>
-          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/public/generated-banners/2f18d3f1-1ffe-4c6a-8406-cf872b308c72/test.gif" alt="CI/CD Automation" width="100%">
+        <td align="center" style="vertical-align: top; width: 50%;">
+          <b>Dynamic Execution</b><br>
+          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3d554fc7-eb01-4807-b893-5faba45445e3/showcase3.gif" alt="3" width="100%">
         </td>
       </tr>
     </table>
@@ -71,7 +70,6 @@
 
 ## 🏗️ Architecture
 
-```text
 OpenSauce/
 ├── .github/workflows/    # CI/CD Automation
 ├── C++/                  # C++ Solutions
@@ -80,30 +78,32 @@ OpenSauce/
 ├── PHP/                  # PHP Challenges & Tests
 ├── Rust/                 # Rust Solutions
 └── CONTRIBUTING.md       # Quality Guidelines
-```
 
 ### Key Directories
 
 | Directory | Purpose |
 |-----------|---------|
 | `.github/workflows` | Contains GitHub Actions for automated testing and labeling. |
-| `C++` | Topic-organized C++ implementations (Arrays, Graphs, etc.). |
+| `C++` | Topic-organized C++ implementations. |
 | `Java/subarrays` | Comprehensive subarray problem set using Kadane's and Sliding Window. |
 | `PHP/test_karunia` | Standalone PHP problems with local test server support. |
 
 ## 🚀 Quick Start
 
 > [!IMPORTANT]
-> Ensure all contributions include Time and Space complexity analysis in Big O notation to pass automated CI checks.
+> Ensure all contributions include Big O complexity analysis in the file headers to pass automated CI checks.
 
 ### Prerequisites
 
 | Requirement | Version | Notes |
 |-------------|---------|-------|
-| GCC/G++ | 9.0+ | Required for modern C++ standards |
-| Python | 3.8+ | Standard runtime for Python implementations |
-| PHP | 7.4+ | Necessary for the PHP test runner |
-| Rust/Cargo | Stable | Required for high-performance Rust modules |
+| GCC | 9.0+ | Required for C++17 implementations |
+| Python | 3.8+ | Required for Python scripts |
+| PHP | 7.4+ | Required for PHP modules and test runner |
+| Git | Latest | For repository management |
+
+> [!WARNING]
+> Manual testing is recommended before PR submission as CI focuses on syntax and metadata validation.
 
 ### Clone & Setup
 
@@ -112,59 +112,64 @@ git clone https://github.com/D4rk-Pho3nix/OpenSauce.git
 cd OpenSauce
 ```
 
-### Build (Example C++)
+### Build
 
 ```bash
-g++ -std=c++17 C++/arrays/169-Majority_Element.cpp -o solution
+g++ -std=c++17 [filename].cpp -o [output]
 ```
 
-### Run (Multi-runtime)
+### Run
 
 ```bash
-# Run C++ binary
-./solution
-
-# Run Python script
-python3 Python/arrays/1248-count-number-of-nice-subarrays.py
-
-# Launch PHP test environment
-php -S localhost:8000
+python3 [filename].py
+node [filename].js
+go run [filename].go
 ```
 
-> [!TIP]
-> Use the provided GitHub Actions to validate your code locally before pushing your branch.
+> [!NOTE] 
+> For PHP modules, you can use the built-in server: `php -S localhost:8000`.
+
+> [!TIP] 
+> Navigate to the specific language directory to find idiomatic setup instructions for that environment.
 
 ## 🤖 Usage
 
-Users navigate to the directory of their chosen language, locate the algorithm by topic (e.g., `/sorting`), and execute the file using the appropriate language runtime or compiler.
+Users navigate to the directory of their chosen language, locate the algorithm by topic (e.g., /sorting), and execute the file using the appropriate language runtime or compiler.
 
-**Example: Running the PHP Test Suite**
+### Examples
+
+**Running a C++ algorithm with complexity analysis**
+```bash
+g++ 169-Majority\ Element.cpp -o majority && ./majority
+```
+
+**Executing the PHP test suite**
 ```bash
 php -S localhost:8000
-# Open http://localhost:8000/tests/run_all_tests.php in your browser to view results
+# Open http://localhost:8000/tests/run_all_tests.php in browser
 ```
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contributions are welcome! Please see CONTRIBUTING.md for guidelines.
 
 Quick contribution flow:
 
 ```bash
 # Fork the repo
 # Create your feature branch
-git checkout -b feature/amazing-algorithm
+git checkout -b feature/amazing-feature
 
 # Make your changes
 # Commit with conventional commits
-git commit -m "feat: add merge sort in Rust"
+git commit -m "feat: add amazing feature"
 
 # Push and create PR
-git push origin feature/amazing-algorithm
+git push origin feature/amazing-feature
 ```
 
-> [!NOTE]
-> All PRs must pass CI checks (complexity analysis, syntax validation) before merging.
+> [!NOTE] 
+> All PRs must pass CI checks, including complexity analysis requirements, before merging.
 
 ## 🎗️ Maintainers
 
@@ -176,35 +181,37 @@ git push origin feature/amazing-algorithm
 
 ## 🩷 Contributors
 
-Thanks goes to these wonderful people:
+Thanks goes to these wonderful people (emoji key):
 
 <div align="left"> 
-<table> 
-  <tbody> 
-    <tr> 
-      <td align="center" valign="top" width="14.28%">
-        <a href="https://github.com/D4rk-Pho3nix">
-          <img src="https://github.com/D4rk-Pho3nix.png?size=100" width="100px;" alt="D4rk-Pho3nix"/><br />
-          <sub><b>D4rk-Pho3nix</b></sub>
-        </a><br />
-        <a href="#" title="Code">💻</a>
-      </td> 
-    </tr> 
-  </tbody> 
-</table> 
+  <table> 
+    <tbody> 
+      <tr> 
+        <td align="center" valign="top" width="14.28%">
+          <a href="https://github.com/D4rk-Pho3nix">
+            <img src="https://github.com/D4rk-Pho3nix.png?size=100" width="100px;" alt="D4rk-Pho3nix"/><br />
+            <sub><b>D4rk-Pho3nix</b></sub>
+          </a><br />
+          <a href="#" title="Code">💻</a>
+        </td> 
+      </tr> 
+    </tbody> 
+  </table> 
 </div>
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification.
+This project follows the all-contributors specification. Contributions of any kind welcome!
 
 ## 💖 Support
 
-If this project helped you, consider supporting my work. Any donation is appreciated and goes towards maintaining the infrastructure!
+If this project helped you, consider buying me a coffee, any donation is appreciated and goes towards my caffeine addiction :p
 
-<a href="https://buymeacoffee.com/hf2p"> <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExem14OW1tanN3eHlyYmR4NW1sYmJkOTZmbmJxejdjZXB6MXY5cW12MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/TDQOtnWgsBx99cNoyH/giphy.gif" width="80"> </a>
+<a href="https://buymeacoffee.com/hf2p"> 
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExem14OW1tanN3eHlyYmR4NW1sYmJkOTZmbmJxejdjZXB6MXY5cW12MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/TDQOtnWgsBx99cNoyH/giphy.gif" width="80"> 
+</a>
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License.
 
 Copyright (c) 2025 OpenSauce Contributors. Licensed under the MIT License.
 
