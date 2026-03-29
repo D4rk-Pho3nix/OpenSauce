@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner Placeholder](https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/55f495e3-d85f-44cc-a557-18cb6772ba8f/final-banner.gif)
+![Banner Placeholder](https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/3b745913-aeb3-4e89-bd10-7c218a924d2d/final-banner.gif)
 
 ![Version](https://img.shields.io/github/v/release/D4rk-Pho3nix/OpenSauce?style=flat-square&label=version&color=blue)
 ![Release Date](https://img.shields.io/github/created-at/D4rk-Pho3nix/OpenSauce?style=flat-square&label=released&color=green)
@@ -9,13 +9,10 @@
 ![License](https://img.shields.io/github/license/D4rk-Pho3nix/OpenSauce?style=flat-square&color=orange)
 [![Contact](https://img.shields.io/badge/Contact-Dev-cyan?style=flat-square)](mailto:manish.srmist23@gmail.com)
 
-
 **made with 🩷 by [D4rk-Pho3nix](https://github.com/D4rk-Pho3nix)**
 *(if you like my work, consider ⭐ starring the repo!)*
 
 </div>
-
-
 
 <a name="table-of-contents"></a>
 ## 📑 Table of Contents
@@ -30,11 +27,8 @@
 | [📖 Usage](#-usage) | Detailed usage instructions |
 | [🤝 Contributing](#-contributing) | Guidelines for contributors |
 | [🎗️ Maintainers](#-maintainers) | Project maintainers |
-| [🩷 Contributors](#-contributors) | Project contributors |
 | [💖 Support](#-support) | How to support the project |
 | [📄 License](#-license) | Licensing information |
-
-
 
 ## 💡 Why this exists
 
@@ -43,18 +37,16 @@
 
 **Background:** This initiative represents a collaborative convergence of algorithmic solutions across an expansive array of programming environments. It is architected to facilitate the dissemination of technical knowledge, particularly during high-velocity development cycles such as Hacktoberfest.
 
-
-
 ## ✨ Features
 
-- **Automated PR Validation**: Employs GitHub Actions to programmatically verify code integrity, documentation compliance, and algorithmic complexity metrics for all incoming pull requests. It validates code quality, adds labels, approves/merges valid PRs, and comments on invalid PRs.
-- **Heuristic Labeling**: Orchestrates the automated categorization of issues using metadata-driven tagging (e.g., 'Hacktoberfest', 'good first issue').
-- **Polyglot Data Structures and Algorithms**: A multifaceted collection of standardized algorithms across 14+ languages, meticulously organized by computational category, designed to facilitate pedagogical advancement and cross-disciplinary proficiency.
+- Automated PR Validation
+- Heuristic Labeling
+- Polyglot Data Structures and Algorithms
 
 ## 📸 Product Showcase
 
 <div align="center">
-  <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-55f495e3-d85f-44cc-a557-18cb6772ba8f/showcase1.png" alt="Main Showcase" width="100%">
+  <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3b745913-aeb3-4e89-bd10-7c218a924d2d/showcase1.png" alt="Main Showcase" width="100%">
 
   <details>
     <summary><b>View Gallery</b></summary>
@@ -62,60 +54,90 @@
       <tr>
         <td width="50%" align="center" style="vertical-align: top;">
           <b>Main Showcase</b><br>
-          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-55f495e3-d85f-44cc-a557-18cb6772ba8f/showcase2.png" alt="aaaa" width="100%">
+          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3b745913-aeb3-4e89-bd10-7c218a924d2d/showcase2.gif" alt="aaa" width="100%">
         </td>
         <td width="50%" align="center" style="vertical-align: top;">
-          <b>aaaa</b><br>
-          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-55f495e3-d85f-44cc-a557-18cb6772ba8f/showcase3.png" alt="aaaaa" width="100%">
+          <b>aaa</b><br>
+          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-3b745913-aeb3-4e89-bd10-7c218a924d2d/showcase3.gif" alt="aaa" width="100%">
         </td>
       </tr>
     </table>
   </details>
 </div>
 
-
-
 ## 🍀 Architecture
 
-OpenSauce/
-Language/Topic/*.ext # Purpose-driven categorization
-
-Example:
-OpenSauce/
-├── .github/workflows/    # CI/CD pipelines for automated heuristics.
-├── C++/                  # Topic-segmented C++ implementations (Arrays, Graphs, etc.). 
-├── Python/               # Python-based algorithmic solutions.
-├── Java/                 # Java-centric implementations.
-├── PHP/                  # PHP functional validation and testing suites.
-├── Rust/                 # Memory-safe Rust implementations.
-└── CONTRIBUTING.md       # Procedural and quality mandates.
-
+OpenSauce/ .├── README.md
+├── .github/
+│   └── workflows/
+│       └── hacktoberfest-automation.yml
+├── C++/
+│   ├── DebtSimplifier.cpp
+│   ├── binary-tree-level-order-traversal.cpp
+│   ├── maximum-depth-of-binary-tree.cpp
+│   ├── 105-construct-binary-tree-from-preorder-and-inorder-traversal.cpp
+│   ├── 1091-shortest-path-in-binary-matrix.cpp
+│   ├── 1248-count-number-of-nice-subarrays.cpp
+│   ├── 15_3Sum.cpp
+│   ├── 1631-path-with-minimum-effort.cpp
+│   ├── 169-Majority Element.cpp
+│   ├── 1781_sum_of_beauty_of_all_substrings.cpp
+│   ├── 224_Basic_Calculator.cpp
+│   ├── 3494_Find_the_Minimum_Amount_of_Time_to_Brew_Potions.cpp
+│   ├── 36-Valid Sudoku.cpp
+│   ├── README.md (General C++ guidelines)
+│   ├── README.md (Wildcard Matching problem)
+│   ├── README.md (Number of Provinces problem)
+│   ├── README.md (Stack/Queue problems)
+│   ├── README.md (High-level and optimization algorithms)
+│   └── README.md (Max Points on a Line problem)
+├── C/
+│   └── README.md
+├── Dart/
+│   └── README.md
+├── Go/
+│   └── README.md
+├── Haskell/
+│   └── README.md
+├── Java/
+│   ├── subarrays/README.md
+│   └── README.md
+├── JavaScript/
+│   └── README.md
+├── Kotlin/
+│   └── README.md
+├── PHP/
+│   ├── arrays/README.md
+│   ├── test_karunia/README.md
+│   └── README.md
+├── Python/
+│   └── README.md
+├── Ruby/
+│   └── README.md
+├── Rust/
+│   └── README.md
+├── Scala/
+│   └── README.md
+├── Swift/
+│   └── README.md
+├── TypeScript/
+│   └── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+└── .gitignore #purpose
 
 ## 🚀 Quick Start
+
+> [!IMPORTANT]
+> Adherence to coding standards and documentation guidelines is paramount for all contributions.
 
 ### Prerequisites
 
 | Requirement | Version | Notes |
 |-------------|---------|-------|
-| C++ | Any | For C++ implementations |
-| Python | Any | For Python solutions |
-| Java | Any | For Java implementations |
-| PHP | Any | For PHP challenges |
-| Rust | Any | For Rust solutions |
-| C | Any | For C implementations |
-| Dart | Any | For Dart implementations |
-| Go | Any | For Go implementations |
-| Haskell | Any | For Haskell implementations |
-| JavaScript | Any | For JavaScript implementations |
-| Kotlin | Any | For Kotlin implementations |
-| Ruby | Any | For Ruby implementations |
-| Scala | Any | For Scala implementations |
-| Swift | Any | For Swift implementations |
-| TypeScript | Any | For TypeScript implementations |
-| npm | Any | For Node.js related tasks |
-| git | Any | For version control |
-| ghc | Any | For Haskell compilation |
-| php | Any | For PHP execution |
+
+> [!WARNING]
+> Ensure that all necessary language compilers and interpreters are correctly installed and configured for your development environment to prevent build and runtime errors.
 
 ### Clone & Setup
 
