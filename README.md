@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner Placeholder](https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/a6a6f40e-f907-4549-a9f4-87497e0152de/final-banner.gif)
+![Banner Placeholder](https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object/generated-banners/830bb017-07eb-49cc-a570-fec7d579da7b/final-banner.gif)
 
 ![Release Date](https://img.shields.io/github/created-at/D4rk-Pho3nix/OpenSauce?style=flat-square&label=released&color=green)
 ![Last Commit](https://img.shields.io/github/last-commit/D4rk-Pho3nix/OpenSauce?style=flat-square&label=last%20commit&color=purple)
