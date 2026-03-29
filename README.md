@@ -22,82 +22,58 @@
 [![Contact](https://img.shields.io/badge/Contact-Ask-cyan?style=flat-square)](mailto:manish.srmist23@gmail.com)
 
 
-**made with 🩷 by [D4rk-Pho3nix](https://github.com/D4rk-Pho3nix)**
-*(if you like my work, consider ⭐ starring the repo!)*
+**made by [D4rk-Pho3nix](https://github.com/D4rk-Pho3nix)**
+*(if you like my work, consider starring the repo!)*
 
 </div>
 
-
-
 <a name="table-of-contents"></a>
-## 📑 Table of Contents
+## Table of Contents
 
 | Section | Description |
 |---------|-------------|
+| [Why this exists](#why-this-exists) | Purpose and background of the project |
+| [Features](#features) | Key capabilities and highlights |
+| [Product Showcase](#product-showcase) | Visual gallery of features |
+| [Architecture](#architecture) | Codebase structure and organization |
+| [Quick Start](#quick-start) | Get up and running in minutes |
+| [Usage](#usage) | Detailed usage instructions |
+| [Contributing](#contributing) | Guidelines for contributors |
+| [Maintainers](#maintainers) | Project maintainers |
+| [Support](#support) | How to support the project |
+| [License](#license) | Licensing information |
 
-| [💡 Why this exists](#-why-this-exists) | Purpose and background of the project |
-
-| [✨ Features](#-features) | Key capabilities and highlights |
-
-| [📸 Product Showcase](#-product-showcase) | Visual gallery of features |
-| [🏗️ Architecture](#-architecture) | Codebase structure and organization |
-| [🚀 Quick Start](#-quick-start) | Get up and running in minutes |
-| [📖 Usage](#-usage) | Detailed usage instructions |
-| [🤝 Contributing](#-contributing) | Guidelines for contributors |
-| [🎗️ Maintainers](#-maintainers) | Project maintainers |
-| [💖 Support](#-support) | How to support the project |
-| [📄 License](#-license) | Licensing information |
-
-
-
-
-
-
-## 💡 Why this exists
+## Why this exists
 
 > [!TIP]
 > A collaborative, polyglot repository of Data Structures and Algorithms (DSA) implementations designed for pedagogical advancement and open-source contribution.
 
 
-**Background:** The project serves as a comprehensive resource for high-quality algorithmic solutions across various programming environments, optimized for high-velocity development cycles like Hacktoberfest.
+**Background:** The project serves as a comprehensive resource for high-quality algorithmic solutions across 15+ programming environments, optimized for high-velocity development cycles like Hacktoberfest.
 
+## Features
 
-
-
-
-
-## ✨ Features
-
-- **Automated PR Validation**: Checks code quality, documentation, complexity analysis, and syntax before auto-merging valid contributions.
-- **Hacktoberfest Automation**: Automatic labeling of issues and PRs with 'Hacktoberfest' and 'good first issue' tags.
-- **Polyglot Implementation**: Standardized DSA solutions across 15+ programming languages following idiomatic style guides.
-- **Comprehensive Problem Solving**: Includes solutions for competitive programming (LeetCode) and real-world utility algorithms like Debt Simplification.
-
-<!-- Example features list:
-- 🚀 **Fast**: Blazing fast performance
-- 🔒 **Secure**: Built with security in mind
-- 🎨 **Beautiful**: Clean, modern UI
--->
-
-
-
+- **Automated PR Validation**: Uses GitHub Actions to validate code quality, documentation, complexity analysis, and syntax before auto-merging.
+- **Hacktoberfest Automation**: Automatically labels issues and PRs to streamline open-source contributions during the event.
+- **Polyglot DSA Library**: Covers 15+ programming languages with standardized directory structures and idiomatic coding practices.
+- **Complexity-First Documentation**: Every implementation requires explicit Big O time and space complexity analysis.
 
 <#IF_SHOWCASE>
-## 📸 Product Showcase
+## Product Showcase
 
 <div align="center">
-  <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-830bb017-07eb-49cc-a570-fec7d579da7b/showcase1.png" alt="Hytale F2P Launcher" width="1000">
+  <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-34f0ecf3-95be-41a6-8aec-c8cdc7dd79b9/showcase1.png" alt="Hytale F2P Launcher" width="1000">
   <details>
     <summary><b>View Gallery</b></summary>
     <table style="width: 100%; border-spacing: 15px; border-collapse: separate;">
       <tr>
         <td align="center" style="vertical-align: top; width: 50%;">
           <b>Mods Preview</b><br>
-          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-830bb017-07eb-49cc-a570-fec7d579da7b/showcase2.gif" alt="Hytale F2P Mods" width="100%">
+          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-34f0ecf3-95be-41a6-8aec-c8cdc7dd79b9/showcase2.gif" alt="Hytale F2P Mods" width="100%">
         </td>
         <td align="center" style="vertical-align: top; width: 50%;">
           <b>Latest News</b><br>
-          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-830bb017-07eb-49cc-a570-fec7d579da7b/showcase3.gif" alt="Hytale F2P News" width="100%">
+          <img src="https://rqecqirwmpmowvpezhki.supabase.co/storage/v1/object//generated-banners/showcase-34f0ecf3-95be-41a6-8aec-c8cdc7dd79b9/showcase3.gif" alt="Hytale F2P News" width="100%">
         </td>
       </tr>
       <tr>
@@ -125,52 +101,22 @@
 </div>
 </#IF_SHOWCASE>
 
-
-
-
-## 🍀 Architecture
+## Architecture
 
 ```
 OpenSauce/
-OpenSauce/
-├── .github/workflows/
-├── C++/
-├── C/
-├── Dart/
-├── Go/
-├── Haskell/
-├── Java/
-│   └── subarrays/
-├── JavaScript/
-├── Kotlin/
-├── PHP/
-│   ├── arrays/
-│   └── test_karunia/
-├── Python/
-├── Ruby/
-├── Rust/
-├── Scala/
-├── Swift/
-└── TypeScript/ #purpose
-
-eg:
-OpenSauce/
-├── .github/workflows/    # Contains GitHub Actions for automated testing and labeling.
-├── C++/                  # Topic-organized C++ implementations including arrays, trees, and graphs. 
-├── Python/               # Python Solutions
-├── Java/                 # Java Solutions
-├── PHP/                  # PHP Challenges & Tests
-├── Rust/                 # Rust Solutions
+├── .github/workflows/    # CI/CD and Automation
+├── C++/                  # C++ DSA solutions
+├── Python/               # Python DSA solutions
+├── Java/                 # Java DSA solutions
+├── PHP/                  # PHP Challenges and Arrays
+├── Ruby/                 # Ruby Implementations
+├── Rust/                 # Rust Implementations
+├── ...                   # 15+ other languages
 └── CONTRIBUTING.md       # Quality Guidelines
 ```
 
-
-
-
-
-
-
-## 🚀 Quick Start
+## Quick Start
 
 > [!IMPORTANT]
 > Check requirements before installing.
@@ -216,34 +162,21 @@ npm start
 > [!TIP]
 > Star the repo if you like it!
 
+## Usage
 
-
-
-
-
-
-## 🤖 Usage
-
-The repository is used by navigating to the desired language directory and running the standalone algorithm files. Each file typically includes example usage in a main block or comments.
+Navigate to a specific language directory and execute the standalone algorithm files. Each file contains example usage in a main block or documentation comments.
 
 ### Running the Debt Simplifier algorithm in C++
 ```bash
 g++ DebtSimplifier.cpp -o simplify && ./simplify
 ```
 
-### Testing PHP solutions locally
+### Starting a local PHP test server for challenges
 ```bash
-php -S localhost:8000
-# Open http://localhost:8000/tests/run_all_tests.php
+cd PHP/test_karunia && php -S localhost:8000
 ```
 
-<!-- Example usage with code blocks and tables -->
-
-
-
-
-
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
@@ -265,11 +198,7 @@ git push origin feature/amazing-feature
 > [!NOTE]
 > All PRs must pass CI checks before merging.
 
-
-
-
-
-## 🎗️ Maintainers
+## Maintainers
 
 <div align="left">
   <a href="https://github.com/D4rk-Pho3nix">
@@ -277,13 +206,7 @@ git push origin feature/amazing-feature
   </a>
 </div>
 
-
-
-
-
-
-
-## 💖 Support
+## Support
 
 If this project helped you, consider buying me a coffee, any donation is appreciated and goes towards my caffeine addiction :p
 
@@ -291,11 +214,7 @@ If this project helped you, consider buying me a coffee, any donation is appreci
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExem14OW1tanN3eHlyYmR4NW1sYmJkOTZmbmJxejdjZXB6MXY5cW12MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/TDQOtnWgsBx99cNoyH/giphy.gif" width="80">
 </a>
 
-
-
-
-
-## 📄 License
+## License
 
 This project is licensed under the [MIT](LICENSE).
 
@@ -303,18 +222,11 @@ This project is licensed under the [MIT](LICENSE).
 <LICENSE_SHORT_TEXT>
 ```
 
-
-
-
-
 <div align="center">
 
 [![Star History Chart](https://api.star-history.com/svg?repos=D4rk-Pho3nix/OpenSauce&type=Date)](https://star-history.com/#D4rk-Pho3nix/OpenSauce&Date)
 
 </div>
-
-
-
 
 <div align="center">
 
@@ -342,25 +254,15 @@ This project is licensed under the [MIT](LICENSE).
 ║  <FEATURES_TABLE>         Markdown table of features                        ║
 ║  <PREREQUISITES_TABLE>    Requirements with versions                        ║
 ║  OpenSauce/
-├── .github/workflows/
-├── C++/
-├── C/
-├── Dart/
-├── Go/
-├── Haskell/
-├── Java/
-│   └── subarrays/
-├── JavaScript/
-├── Kotlin/
-├── PHP/
-│   ├── arrays/
-│   └── test_karunia/
-├── Python/
-├── Ruby/
-├── Rust/
-├── Scala/
-├── Swift/
-└── TypeScript/            Directory structure (if complex)                  ║
+├── .github/workflows/    # CI/CD and Automation
+├── C++/                  # C++ DSA solutions
+├── Python/               # Python DSA solutions
+├── Java/                 # Java DSA solutions
+├── PHP/                  # PHP Challenges and Arrays
+├── Ruby/                 # Ruby Implementations
+├── Rust/                 # Rust Implementations
+├── ...                   # 15+ other languages
+└── CONTRIBUTING.md       # Quality Guidelines            Directory structure (if complex)                  ║
 ║  <DIRECTORY_TABLE>        Key directories explained                         ║
 ║                                                                               ║
 ║  FORK-SPECIFIC (only if <#IF_FORK>):                                        ║
